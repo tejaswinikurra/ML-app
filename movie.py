@@ -3,8 +3,8 @@ import pandas as pd
 import ast
 
 # Load data
-titles_path = "C:/Users/saite/OneDrive/Documents/archive/titles.csv"
-credits_path = "C:/Users/saite/OneDrive/Documents/archive/credits.csv"
+titles_path = "titles.csv"
+credits_path = "credits.csv"
 
 titles_df = pd.read_csv(titles_path)
 credits_df = pd.read_csv(credits_path)
